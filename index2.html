@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MirrorFit - Lo Specchio Intelligente</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5dc; /* Beige chiaro */
+            color: #2f4f4f; /* Verde scuro */
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #2f4f4f;
+            color: white;
+            padding: 20px;
+            position: relative;
+        }
+
+        .header-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo-title {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo-title img {
+            height: 50px;
+            margin-right: 15px;
+        }
+
+        nav {
+            margin-top: 15px;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .buy-button {
+            background-color: #32CD32; /* Verde acceso */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .buy-button:hover {
+            background-color: #228B22;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            border-radius: 8px;
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #2f4f4f;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .gallery img {
+            width: 30%;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #2f4f4f;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        @media (max-width: 768px) {
+            .gallery img {
+                width: 100%;
+                margin-bottom: 10px;
+            }
+
+            .buy-button {
+                display: block;
+                margin-top: 10px;
+            }
+
+            .header-container {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            nav {
+                margin-top: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="header-container">
+        <div class="logo-title">
+            <img src="C:\Users\danie\Downloads\M.png" alt="Logo MirrorFit">
+            <h1>MirrorFit</h1>
+        </div>
+        <a href="#acquista" class="buy-button">Acquista</a>
+    </div>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#contatti">Contatti</a>
+        <a href="#recensioni">Recensioni</a>
+    </nav>
+</header>
+
+<section id="home">
+    <h2>Cos'è MirrorFit?</h2>
+    <p>MirrorFit è uno specchio digitale ad alta tecnologia progettato per rivoluzionare l'esperienza di shopping nei negozi di abbigliamento. Dotato di sensori 3D e scanner RFID o codici a barre, questo specchio è in grado di riconoscere automaticamente i capi d'abbigliamento presenti nel camerino o mostrati dal cliente.</p>
+    <p>Appena un capo viene avvicinato allo specchio, il sistema lo identifica, ne recupera l'immagine e i dati digitali, e proietta sul riflesso del cliente una simulazione realistica dell'abito indossato. L'intelligenza artificiale regola in tempo reale la vestibilità, i movimenti del tessuto e persino gli effetti di luce e colore, offrendo un'esperienza immersiva di prova virtuale.</p>
+</section>
+
+<section>
+    <h2>Caratteristiche Principali</h2>
+    <ul>
+        <li>Riconoscimento automatico dei capi tramite chip RFID o scanner ottici.</li>
+        <li>Prova virtuale in tempo reale grazie al tracciamento corporeo e all'AR integrata.</li>
+        <li>Interfaccia touch o vocale per cambiare colori, taglie e modelli istantaneamente.</li>
+        <li>Consigli di stile personalizzati, basati su intelligenza artificiale.</li>
+        <li>Condivisione social o acquisto immediato, con possibilità di salvare i look o inviarli al proprio smartphone.</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Galleria</h2>
+    <div class="gallery">
+        <img src="C:\Users\danie\Downloads\Mirrorfit_ lo specchio intelligente per la prova virtuale dei capi nei negozi____Il Mirrorfit è uno specchio digitale ad alta tecnologia progettato per rivoluzionare l’esperienza di shopping nei negozi di abbigliam.jpg" alt="Specchio Interattivo">
+        <img src="C:\Users\danie\Downloads\VirtualMirror_ lo specchio intelligente per la prova virtuale dei capi nei negozi__Il MirrorFit è uno specchio digitale ad alta tecnologia progettato per rivoluzionare l’esperienza di shopping nei negozi di abbigli.jpg" alt="Camerino Virtuale">
+        <img src="C:\Users\danie\Downloads\Il MirrorFit è uno specchio digitale ad alta tecnologia progettato per rivoluzionare l’esperienza di shopping nei negozi di abbigliamento. Dotato di sensori 3D e scanner RFID o codici a barre, questo specchio è in .jpg" alt="Memory Mirror">
+    </div>
+</section>
+
+<section id="recensioni">
+    <h2>Recensioni</h2>
+    <p>"Un'esperienza di shopping completamente nuova, davvero rivoluzionaria!" - Cliente soddisfatto</p>
+    <p>"Facile, veloce, e molto realistica la simulazione degli abiti." - Fashion Blogger</p>
+</section>
+
+<section id="contatti">
+    <h2>Contattaci</h2>
+    <p>Email: info@mirrorfit.com</p>
+    <p>Telefono: +39 0123 456789</p>
+    <p>Indirizzo: Via Innovazione 42, Milano</p>
+
+    <div style="margin-top:20px;">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2889.7590600333485!2d9.19233821510585!3d45.46420397910053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c6a1a34e9d7f%3A0x8706a6edab54a6f7!2sVia%20Innovazione%2042%2C%20Milano!5e0!3m2!1sit!2sit!4v1715353200000" 
+            width="100%" 
+            height="300" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+</section>
+
+<section id="acquista">
+    <h2>Acquista MirrorFit</h2>
+    <p>Contattaci per ricevere un preventivo personalizzato o visita il nostro e-commerce ufficiale per ordini immediati.</p>
+    <a href="https://mirrorfit-shop.com" target="_blank" class="buy-button">Vai al negozio</a>
+</section>
+
+<footer>
+    <p>&copy; 2025 MirrorFit. Tutti i diritti riservati.</p>
+</footer>
+
+</body>
+</html>
